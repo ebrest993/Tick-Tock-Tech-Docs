@@ -1,0 +1,14 @@
+[
+  {
+    "name": "GitHub Updates",
+    "description": "Building software can be complex and challenging, but your management tools shouldn’t be. That’s why we’ve reimagined how issues work in the new GitHub Issues, now available in beta."
+  },
+  {
+    "name": "Actions c/o GitHub",
+    "description": "GitHub Discussions integrations are now available on GitHub Actions. You can trigger an Actions workflow any time a discussion or discussion_comment event occurs. Visit the docs for implementation details, and reach out if you have feedback."
+  },
+  {
+    "name": "Security Beef-Up",
+    "description": "We shipped a lot of security updates in June, including new code scanning functionalities. You can perform free text searches against your code scanning alerts, allowing you to find specific alerts even if you don’t remember them by name."
+  }
+]

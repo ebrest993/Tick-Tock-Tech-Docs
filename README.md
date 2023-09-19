@@ -40,3 +40,12 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 ```
 
 You'll just want to use document.location.replace('/dashboard') in the file in public/js/*.js that's handling the post - I see you have that in the profile, but after the delete or new project handler it's going to /profile instead of /dashboard(or the url for whatever page you mean by dashboard)
+
+Some more specific steps will be:
+-Create a Comment.js file in models
+-Import sequelize, Model, etc
+-Create a Comment.init() function that has whatever data you want to store with your comments, id, etc
+-export the model
+-in models/index.js you'll do the association itself: import your Comment model, using hasMany, associate the comment with the post table, set the foreignKey to the id, and other options
+Then you can use the model in your controllers to actually add data and such.
+Can I clarify anything else on this before I leave you to work on it?
