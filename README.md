@@ -49,3 +49,59 @@ Some more specific steps will be:
 -in models/index.js you'll do the association itself: import your Comment model, using hasMany, associate the comment with the post table, set the foreignKey to the id, and other options
 Then you can use the model in your controllers to actually add data and such.
 Can I clarify anything else on this before I leave you to work on it?
+
+# Tic Toc Tech Docs #
+
+
+## Table of Contents ##
+1. [Description](./README.md#description)
+2. [Installation](./README.md#installation)
+3. [Usage](./README.md#usage)
+4. [Licensing](./README.md#licensing)
+5. [Contributing](./README.md#contributing)
+6. [Test](./README.md#test)
+7. [Contact](./README.md#contact)
+
+## Description ##
+    
+Tic Toc Tech Docs is the latest in workplace social media. Write short articles about whatever's trending in the tech world and post them alongside your github username or email, leave comments on others' posts. Keep track of your posts by creating an account, and delete them at will.
+    
+##############
+
+## Installation ##
+
+For proper install, run 'npm i' 'npm i express' 'npm i sequelize' 
+
+#############
+
+## Usage ##
+
+For undeployed run, run 'npm run seed' 'npm start' Then redirect to http://localhost/3001
+
+#############
+
+## Licensing ##
+
+This project is licensed under the None License.
+
+#############
+
+## Contributing ##
+
+If developers wish to request access for contribution, the repository can be found at this link: https://github.com/ebrest993/Tick-Tock-Tech-Docs
+
+##############
+
+## Test ##
+
+
+
+##############
+
+## Contact ##
+
+For any questions or to contact the developer directly:
+
+email: elliott.brest@gmail.com
+
+GitHub: ebrest993
